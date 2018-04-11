@@ -1,6 +1,6 @@
 # bt-comp-challenge-3
 
-##Creative License##
+##Creative License
 You may NOT take liberties with the layout, but your creative license includes:
 
 Copy
