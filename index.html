@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="main.css" type="text/css">
     <link rel="stylesheet" href="normalize.css" type="text/css">
-    <title>My Comp 3</title>
+    <title>Comp 3</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -23,7 +23,7 @@
         <ul class="main-nav-ul">
           <h1>Main</h1>
           <li class="main-nav-li">
-            <a class="main-nav-link" href="#">
+            <a class="main-nav-link" title="Main proflie section" href="#">
               <div class="icons-profile-nav">
                 <i class="fas fa-home main-nav-li-icons"></i>
               </div>
@@ -31,7 +31,7 @@
             </a>
           </li>
           <li class="main-nav-li">
-            <a class="main-nav-link" href="#">
+            <a class="main-nav-link"  href="#">
               <div class="icons-profile-nav">
                 <i class="fas fa-briefcase main-nav-li-icons"></i>
               </div>
@@ -68,7 +68,7 @@
         <ul class="admin-nav-ul">
           <h1>Admin</h1>
           <li class="admin-nav-li">
-            <a class="main-nav-link" href="#">
+            <a class="main-nav-link" title="Admin profile section" href="#">
               <div class="icons-profile-nav">
                 <i class="fas fa-user main-nav-li-icons"></i>
               </div>
@@ -113,20 +113,23 @@
         <ul class="categories-nav-ul">
           <h1>Categories</h1>
           <li class="categories-nav-li">
+            <a class="Administrative-nav-link" href="#"></a>
             <i class="fas fa-check-square"></i>
-            <p>Administrative</p>
+            <p aira-label="Administrative">Administrative</p>
           </li>
           <li class="categories-nav-li">
-            <img class="square-icon" src="images/blue.jpg" alt="">
-            <p>Design</p>
+            <a class="Design-nav-link" href="#">
+            <img class="square-icon" src="images/blue.jpg" alt="Design check box">
+            <p aira-label="aira-label=""">Design</p>
           </li>
           <li class="categories-nav-li">
-              <img class="square-icon" src="images/red.jpg" alt="">
-              <p>Executive</p>
+              <a class="Excutive-nav-link" href="#"></a>
+              <img class="square-icon" src="images/red.jpg" alt="Excutive check box">
+              <p aira-label="Excutive">Executive</p>
           </li>
           <li class="categories-nav-li">
-            <img class="square-icon" src="images/green.jpg" alt="">
-            <p>Human Resources</p>
+            <img class="square-icon" src="images/green.jpg" alt="Human Resources check box">
+            <p aira-label="Human Resources">Human Resources</p>
           </li>
         </ul>
       </article>
@@ -227,7 +230,7 @@
         <hr class="hr-left">
         <div>
           <button class="hr-btn" type="button" name="button">
-          <i class="fas fa-chevron-circle-up"></i>
+            <i class="fas fa-chevron-circle-up"></i>
           </button>
         </div>
         <hr class="hr-right">
