@@ -1,207 +1,326 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>BT Comp3</title>
-  <link rel="stylesheet" href="normalize.css" type="text/css">
-  <link rel="stylesheet" href="main.css" type="text/css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="complete-container">
-    <nav class="profile-nav">
-      <div class="profile-pic-div">
-        <img src="images/stickMan.jpg" alt="User Profile Pic">
-        <h1>Stick Man</h1>
-      </div>
-      <h2>Main</h2>
-      <ul class="profile-ul-nav">
-        <li>          
-          <a href="">
-            <i class="fas fa-home icons-profile-nav"></i>
-            <span>Home</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-briefcase icons-profile-nav"></i>
-            <span>Jobs</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="far fa-file-alt icons-profile-nav"></i>
-            <span>Resumes</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="far fa-clipboard icons-profile-nav"></i>
-            <span>Tasks</span>
-          </a>
-        </li>
-        <li class="ul-nav-last-list">
-          <a href="">
-            <i class="fas fa-calendar-alt icons-profile-nav"></i>
-            <span>Calander</span>
-          </a>
-        </li>
-      </ul>
-        <h2>Admin</h2>
-       <ul class=class="profile-ul-nav">
-        <li>
-          <a href="">
-            <i class="fas fa-user icons-profile-nav"></i>
-            <span>User</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-map-marker-alt icons-profile-nav"></i>
-            <span>Locations</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-map-marker-alt icons-profile-nav"></i>
-            <span>Workflow</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-angle-double-down icons-profile-nav"></i>
-            <span>Job Boards</span>
-          </a>
-        </li>
-        <li class="ul-nav-last-list">
-          <a href="">
-            <i class="fas fa-file-alt icons-profile-nav"></i>
-            <span>Social</span>
-          </a>
-        </li>
-      </ul>
-        <h2>Categories</h2>
-       <ul class="profile-ul-nav">
-        <li>
-          <a href="">
-            <input type="checkbox" id="categories" name="administration" value="categories">
-            <span>Administration</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <input type="checkbox" id="categories" name="design" value="categories">
-            <span>Design</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <input type="checkbox" id="categories" name="executive" value="categories">
-            <span>Executive</span>
-          </a>
-        </li>
-        <li class="ul-nav-last-list">
-          <a href="">
-            <input type="checkbox" id="categories" name="human resources" value="categories">
-            <span>Human Resources</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    
-  <div id="main-container">
-    <header class="main-container-header">     
-      <div class="nav-menu-button-burger">
-        <a href="">
-          <i class="fas fa-bars"></i>
-        </a>
-      </div>
-      <input type="search" placeholder="Search for a job,task or resume" name="search">
-      <div class="header-buttons">
-        <div>
-          <a href="">
-            <span>Add User</span>
-          </a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <title>My Comp 3</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="main-nav-container">
+      <article class="main-nav-box name">
+        <div class="profli"></div>
+        <img class="profile-img" src="images/stickMan.jpg" alt="Mr. stick man profile photo">
+        <div class="profile-name-container">
+          <p class="profile-name">Stick Man</p>
+          <p class="icon-angle-down name-arrow"></p>
         </div>
-      </div>
-      <div class="header-buttons">
-        <div>
-          <a href="">
-            <span>Add event</span>
-          </a>
-        </div>
-      </div>
-      <div class="header-buttons">
-        <div>
-          <a href="">
-            <span>Settings</span>
-          </a>
-        </div>
-      </div>
-    </header>
-    <div class="header2-container">
-      <section class="header-section-main">
-        <h1>Customer Servce Representative</h1>
-        <p class="location">
-          <i class="fas fa-map-marker-alt"></i>
-          "San Francisco, CA * "
-          <a href=""> Preview this post</a>
-        </p>
-        <div class="header-icons-div">
-          <div class="header-links1st">
-            <i class="fas fa-adjust"></i>
-            <a href="">Open</a>
-          </div>
-          <div class="header-links">
-            <i class="fas fa-bookmark"></i>
-            <a href=""></a>
-          </div>
-          <div class="header-links">
-            <i class="fas fa-pencil-alt"></i>
-            <a href=""></a>
-          </div>
-          <div class="header-links">
-            <i class="far fa-trash-alt"></i>
-            <a href=""></a>
-          </div>
-        </div>
-      </section>
-
-      <nav class="header-link-buttons">
-        <!-- PickUp HERE -->
-        <ul>
-          <li>
-            <a href="">Summary</a>
+      </article>
+      <article class="main-nav-box main-menu">
+        <ul class="main-nav-ul">
+          <h1>Main</h1>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="fas fa-home main-nav-li-icons"></i>
+              </div>
+              <p>Home</p>
+            </a>
           </li>
-          <li>
-            <a href="">Applicants</a>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="fas fa-briefcase main-nav-li-icons"></i>
+              </div>
+              <p>Jobs</p>
+            </a>
           </li>
-          <li>
-            <a href="">Job Board</a>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="far fa-file-alt main-nav-li-icons"></i>
+              </div>
+              <p>Resume</p>
+            </a>
           </li>
-          <li>
-            <a href="">Interviews</a>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="far fa-clipboard main-nav-li-icons"></i>
+              </div>
+              <p>Tasks</p>
+            </a>
           </li>
-          <li>
-            <a href="">Activity</a>
-          </li>
-          <li>
-            <a href="">Broadcast</a>
-          </li>
-          <li>
-            <a href="">Notifications</a>
+          <li class="main-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="fas fa-calendar-alt main-nav-li-icons"></i>
+              </div>
+              <p>Calendar</p>
+            </a>
           </li>
         </ul>
-      </nav>
-    </div>
-  </div>
-    <div class="full-bottom-content">
-    <section class="bottom-content">
-      <div circle-graph>
-          
-      </div>  
+      </article>
+      <article class="main-nav-box admin-menu">
+        <ul class="admin-nav-ul">
+          <h1>Admin</h1>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="fas fa-user main-nav-li-icons"></i>
+              </div>
+              <p>Users</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="fas fa-map-marker-alt main-nav-li-icons"></i>
+              </div>
+              <p>Locations</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="fas fa-angle-double-down main-nav-li-icons"></i>
+              </div>
+              <p>Workflows</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="fas fa-file-alt main-nav-li-icons"></i>
+              </div>
+              <p>Job Boards</p>
+            </a>
+          </li>
+          <li class="admin-nav-li">
+            <a class="main-nav-link" href="#">
+              <div class="icons-profile-nav">
+                <i class="far fa-comments main-nav-li-icons"></i>
+              </div>
+              <p>Social</p>
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="main-nav-box categories-menu">
+        <ul class="categories-nav-ul">
+          <h1>Categories</h1>
+          <li class="categories-nav-li">
+            <i class="fas fa-check-square"></i>
+            <p>Administrative</p>
+          </li>
+          <li class="categories-nav-li">
+            <img class="square-icon" src="images/blue.jpg" alt="">
+            <p>Design</p>
+          </li>
+          <li class="categories-nav-li">
+              <img class="square-icon" src="images/red.jpg" alt="">
+              <p>Executive</p>
+          </li>
+          <li class="categories-nav-li">
+            <img class="square-icon" src="images/green.jpg" alt="">
+            <p>Human Resources</p>
+          </li>
+        </ul>
+      </article>
+    </nav>
+  <main>
+    <section class="search-bar-nav">
+      <div class="left-search-nav">
+        <article class="search-hamburger">
+          <p class="icon-hamburger"></p>
+        </article>
+        <article class="search-input">
+          <p class="icon-search"></p>
+          <p class="search-text">Search for a job, task or resume</p>
+        </article>
+      </div>
+      <div class="right-search-nav">
+        <article class="search-profile">
+          <p class="icon-user"></p>
+        </article>
+        <article class="search-calendar">
+          <p class="icon-calendar big-calendar"></p>
+        </article>
+        <article class="search-options">
+          <p class="icon-sweden"></p>
+        </article>
+      </div>
     </section>
-  </div>
-
-</body>
+    <section class="dashboard-top">
+      <div class="upper-dashboard-top">
+        <article class="dashboard-title-container">
+          <h1 class="dashboard-title">Customer Service Representative</h1>
+          <div class="location-container">
+            <p class="icon-location"></p>
+            <p class="dashboard-location">This Place Here  &#8729;
+              <span class="dashboard-preview">Preview this post</span>
+            </p>
+        </div>
+        </article>
+        <article class="dashboard-btns">
+          <div class="open-btn">
+            <p class="icon-dot"></p>
+            <p class="open-btn-text">Open</p>
+          </div>
+          <div class="flag-btn">
+            <p class="icon-bookmark"></p>
+          </div>
+          <div class="edit-btn">
+            <p class="icon-edit"></p>
+          </div>
+          <div class="home-btn">
+            <p class="icon-cloud"></p>
+          </div>
+          <div class="hidden-btn">
+            <p class="icon-etc">
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="lower-dashboard-top">
+        <ul class="dashboard-menu">
+          <li class="horiz-nav summary">Summary</li>
+          <li class="horiz-nav">Applicants</li>
+          <li class="horiz-nav job-board">Job Board</li>
+            <li class="horiz-nav more-nav">
+              <p class="hide-more">More</p>
+              <p class="hide-more icon-angle-down"></p>
+            </li>
+          <li class="horiz-nav" id="interview">Interviews</li>
+          <li class="horiz-nav" id="activity">Activity</li>
+          <li class="horiz-nav" id="broadcast">Broadcast</li>
+          <li class="horiz-nav" id="notification">Notifications</li>
+        </ul>
+      </div>
+    </section>
+    <section class="content-1">
+      <section class="circle-graph-section">
+        <article class="circle-graph">
+          <div class="circle-graph-1">
+            <p class="circle-graph-num">679</p>
+            <p class="circle-graph-word">Applicants</p>
+          </div>
+          <div class="circle-graph-2">
+            <p class="circle-graph-num">234</p>
+            <p class="circle-graph-word">Interviews</p>
+          </div>
+          <div class="circle-graph-3">
+            <p class="circle-graph-num">3780</p>
+            <p class="circle-graph-word">Forwards</p>
+          </div>
+        </article>
+        <button class="circle-graph-btn" type="button" name="button">TOTALS - out of 567 views</button>
+      </section>
+      <section class="bar-graph-section">
+        <article class="bar-graph"></article>
+        <button class="bar-graph-btn" id="bar-graph-btn" type="button" name="button">Applicants/Day</button>
+      </section>
+      <aside class="divider">
+        <hr class="hr-left">
+        <div>
+          <button class="hr-btn" type="button" name="button">
+          <i class="fas fa-chevron-circle-up"></i>
+          </button>
+        </div>
+        <hr class="hr-right">
+      </aside>
+    </section>
+    <section class="content-bottom">
+      <section class="content-2">
+        <div class="table-container">
+          <table class="job-table">
+            <tr class="header-row">
+              <th class="left-col-header"></th>
+              <th class="td-topic job-description">Job Description</th>
+              <th class="td-info">
+                <button class="td-edit-btn" type="button" name="button">
+                  <p class="icon-edit td-edit-btn-icon"></p>
+                  <p class="td-edit-btn-text">Edit</p>
+                </button>
+              </th>
+              <th class="right-col-header"></th>
+            </tr>
+            <tr>
+              <th class="left-col" rowspan="7"></th>
+              <td class="td-topic">Position Title</td>
+              <td class="td-info">Customer Service Representative</td>
+              <th class="right-col" rowspan="7"></th>
+            </tr>
+            <tr>
+              <td class="td-topic">Location</td>
+              <td class="td-info">New York City, NY</td>
+            </tr>
+            <tr>
+              <td class="td-topic">Position Type</td>
+              <td class="td-info">Full Time</td>
+            </tr>
+            <tr>
+              <td class="td-topic">Status</td>
+              <td class="td-info">Open</td>
+            </tr>
+            <tr>
+              <td class="td-topic">Description</td>
+              <td class="td-info paragraph">My name is Jordan Belfort. I'm a former member of the middle class raised by two accountants in a tiny apartment in Bayside, Queens. The year I turned 26, as the head of my own brokerage firm, I made $49 million, which really pissed me off because it was three shy of a million a week.</td>
+            </tr>
+            <tr>
+              <td class="td-topic">Hiring Lead</td>
+              <td class="td-info gw">
+                <img class="gw-img"  src="images/thisGuyWolf.jpg" alt="hiring lead leonardo dicaprio">
+                <p>"This Guy"</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="bottom-td td-topic">Approved Salary</td>
+              <td class="bottom-td td-info">$111,000</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <aside class="content-3">
+        <section class="social-media-btns">
+          <button class="fb-btn" type="button" name="button">
+            <p class="icon-facebook"></p>
+            <p class="fb-text">Like on Facebook</p>
+          </button>
+          <button class="twitter-btn" type="button" name="button">
+            <p class="icon-twitter"></p>
+            <p class="twitter-text">Tweet this job</p>
+          </button>
+          <button class="linkedin-btn" type="button" name="button">
+            <img class="linked-in-icon" src="assets/icons/linked-in-icon.svg" alt="">
+            <p class="linkedin-text">Post on LinkedIn</p>
+          </button>
+        </section>
+        <section class="job-section">
+          <i class="fas fa-globe"></i>
+          <h3 class="aside-title">Link to this Job</h3>
+          <p class="aside-text">The only thing standing between you and your goal is the bullshit story you keep telling yourself as to why you can't achieve it.</p>
+          <input class="aside-input" type="text" placeholder="http://loremipsum dot sit amet...">
+          <button class="aside-copy-btn" type="button" name="button">Copy</button>
+        </section>
+        <section class="widget-section">
+          <i class="fas fa-globe"></i>
+          <h3 class="aside-title"><span class="hide-use-the">Use the</span>Button Widget</h3>
+          <p class="aside-text">Good! Pick up the phone and start dialing! I want you to deal with your problems by becoming rich!</p>
+          <input class="aside-input" type="text" placeholder="<script type=text/'jacascript's...">
+          <button class="aside-copy-btn" type="button" name="button">Copy</button>
+        </section>
+        <section class="email-section">
+          <i class="fas fa-paper-plane"></i>
+          <h3 class="aside-title">Upload Resumes <span class="hide-by-email">by Email</span></h3>
+          <p class="aside-text">This right here is the land of opportunity.</p>
+          <input class="aside-input" type="text" placeholder="wolf.of.wallstreet@gmail.com">
+        </section>
+      </aside>
+    </section>
+  </main>
+  </body>
 </html>
